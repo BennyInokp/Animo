@@ -81,15 +81,15 @@ export default function Index() {
               
               <div className="space-y-4 sm:space-y-6">
                 <p className="text-gray-200 text-sm sm:text-base md:text-lg leading-relaxed">
-                  ANIMO is an A.I integrated platform that is innovative, people driven, and globally connected ecosystem built to provide new avenues for personal and financial growth. Our purpose is to merge technology, community, and opportunity into one seamless platform where individuals can thrive.
+                  ANIMO Network is an A.I integrated platform that is innovative, people driven, and globally connected ecosystem built to provide new avenues for personal and financial growth. The purpose of animo earning platform is to merge technology, community, and opportunity into one seamless network where individuals can thrive.
                 </p>
 
                 <p className="text-gray-200 text-sm sm:text-base md:text-lg leading-relaxed">
-                  With Animo, you gain access to a dynamic multi-earnings system, premium skill acquisition programs, and our groundbreaking walk-and-earn technology that transforms your daily steps into real income. Beyond this, we open doors to sustainable real estate opportunities and cutting-edge tech solutions designed to help you work towards long-term financial goals.
+                  With Animo Earning App, you gain access to a dynamic multi-earnings system, premium skill acquisition programs, and animo platform groundbreaking walk-and-earn technology that transforms your daily steps into real income. Beyond this, we open doors to sustainable real estate opportunities and cutting-edge tech solutions designed to help you work towards long-term financial goals.
                 </p>
 
                 <p className="text-gray-200 text-sm sm:text-base md:text-lg leading-relaxed">
-                  Animo is a platform where innovation meets opportunity, helping you take steps toward your goals.
+                  Animo Website is a platform where innovation meets opportunity, helping you take steps toward your goals.
                 </p>
               </div>
             </div>
@@ -112,11 +112,11 @@ export default function Index() {
       <section id="features" className="min-h-screen bg-gray-900 px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white text-center mb-4 sm:mb-6 md:mb-8">
-            Our key <span className="text-[#B8E68C]">Features</span>
+            Animo Network <span className="text-[#B8E68C]">Features</span>
           </h1>
           
           <div className="text-center mb-8 sm:mb-12 md:mb-16">
-            <p className="text-gray-200 text-sm sm:text-base md:text-lg lg:text-xl px-4">
+            <p className="text-gray-400 text-sm sm:text-base md:text-lg lg:text-xl px-4">
               Discover the key parts of the Animo ecosystem, built to guide you toward personal progress and meaningful financial success.
             </p>
           </div>
@@ -131,12 +131,12 @@ export default function Index() {
       <section id="packages" className="min-h-screen bg-gray-900 px-4 sm:px-6 md:px-8 py-8 sm:py-12 md:py-16">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white text-center mb-3 sm:mb-4 md:mb-6">
-            Choose Your <span className="text-[#B8E68C]">Animo Plan</span>
+            Choose Your <span className="text-[#B8E68C]">Animo App Plan</span>
           </h1>
           
           <div className="text-center mb-6 sm:mb-4 md:mb-10">
             <p className="text-gray-400 text-sm sm:text-base md:text-lg px-4">
-              Find the plan that works best for you and open the door to the full Animo experience.
+              Find the plan that works best for you and open the door to the full Animo Networking Platform experience.
             </p>
           </div>
 

@@ -88,7 +88,7 @@ export default function PricingSection() {
               {/* CTA Button */}
               <Link href="/dashboard">
                 <button className="w-full bg-[#B8E68C] hover:bg-[#a3d477] text-[#0A0E27] font-bold text-base sm:text-lg py-3 sm:py-4 rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-[#B8E68C]/30">
-                  Get Started Today
+                  Join Animo Network Today
                 </button>
               </Link>
             </div>
@@ -96,19 +96,19 @@ export default function PricingSection() {
         </div>
 
         {/* Platform Disclaimer */}
-        <div className="mb-6 sm:mb-8 md:mb-10 px-2 sm:px-4">  
+        {/* <div className="mb-6 sm:mb-8 md:mb-10 px-2 sm:px-4">  
           <p className="text-gray-200 text-lg sm:text-xl md:text-2xl mb-2 sm:mb-3 text-center">
             DISCLAIMER
           </p>
           <p className="text-[#B8E68C] text-xs sm:text-sm leading-relaxed text-center max-w-4xl mx-auto px-2">
             The earnings, claims, and promises discussed in this training are personal results and results of constant practice. These results are not typical. They don't imply that you can duplicate them, you may get little or no results from it as they are all references for example purposes only. Every results vary and depends on many factors including but not limited to your background, experience, and work ethic. All business involves risk as well as effort and action. If you're not willing to accept that, please DO NOT REGISTER
           </p>
-        </div>
+        </div> */}
 
         {/* Testimonials Section */}
         <div className="mb-6 sm:mb-8">
           <p className='text-[#B8E68C] text-2xl sm:text-3xl md:text-4xl mb-4 sm:mb-6 text-center font-semibold'>
-            TESTIMONIALS
+           Animo Platform Testimonials
           </p>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">

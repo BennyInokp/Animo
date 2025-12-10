@@ -213,16 +213,16 @@ export default function Dashboard() {
   const [timeLeft, setTimeLeft] = useState(600); // Example: 10 minutes
 
   const paymentDetails = [
-    { label: "ACCOUNT NUMBER", value: "8030877410" },
-    { label: "BANK NAME", value: "PALMPAY" },
-    { label: "BENEFICIARY", value: "LINCOLN AKHILOME" },
+    { label: "ACCOUNT NUMBER", value: "0036719441" },
+    { label: "BANK NAME", value: "Stanbic IBTC" },
+    { label: "BENEFICIARY", value: "ANIMO(Hidom Enterprise)" },
     { label: "TOTAL AMOUNT", value: "₦15,000", valueColor: "#4ADE80" },
   ];
 
   const paymentDetail = [
-    { label: "ACCOUNT NUMBER", value: "8030877410" },
-    { label: "BANK NAME", value: "PALMPAY" },
-    { label: "BENEFICIARY", value: "LINCOLN AKHILOME" },
+    { label: "ACCOUNT NUMBER", value: "0036719441" },
+    { label: "BANK NAME", value: "Stanbic IBTC" },
+    { label: "BENEFICIARY", value: "ANIMO(Hidom Enterprise)" },
     { label: "TOTAL AMOUNT", value: "₦10,000", valueColor: "#4ADE80" },
   ];
 
@@ -238,7 +238,7 @@ export default function Dashboard() {
   };
 
   const openTelegram = () => {
-    window.open("https://t.me/HidomTV?text=Hello%2C%20I%20am%20interested%20in%20Animo", "_blank");
+    window.open("https://t.me/Aminoofficials?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo", "_blank");
   };
 
   useEffect(() => {
