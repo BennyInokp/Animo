@@ -6,7 +6,7 @@ export default function FeaturesSection() {
           <path d="M13.5 5.5c1.09 0 2.09.27 3 .73V3a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v3.23c.91-.46 1.91-.73 3-.73zM13.5 8a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11zm0 2a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7z"/>
         </svg>
       ),
-      title: "Walk-and-Earn",
+      title: "Animo Walk-and-Earn",
       description: "Transform your daily steps into real, tangible income with our innovative technology that rewards you for staying active."
     },
     {
@@ -15,7 +15,7 @@ export default function FeaturesSection() {
           <path d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm11 15H4v-2h16v2zm0-5H4V8h5.08L7 10.83 8.62 12 11 8.76l1-1.36 1 1.36L15.38 12 17 10.83 14.92 8H20v6z"/>
         </svg>
       ),
-      title: "Multi-Earnings System",
+      title: "Animo Multi-Earnings System",
       description: "Tap into a dynamic and globally connected ecosystem with multiple income streams designed to expand your earning potential."
     },
     {
@@ -24,8 +24,8 @@ export default function FeaturesSection() {
           <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
         </svg>
       ),
-      title: "Skill Acquisition",
-      description: "Access premium programs and courses designed to equip you with high-demand skills for the future."
+      title: "Animo Skill Acquisition",
+      description: "Animo Access premium programs and courses designed to equip you with high-demand skills for the future."
     },
     {
       icon: (
@@ -33,8 +33,8 @@ export default function FeaturesSection() {
           <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
         </svg>
       ),
-      title: "Real Estate",
-      description: "We open doors to sustainable real estate opportunities, helping you build long-term, generational wealth."
+      title: "Animo Network Real Estate",
+      description: "Animo open doors to sustainable real estate opportunities, helping you build long-term, generational wealth."
     },
     {
       icon: (
@@ -42,7 +42,7 @@ export default function FeaturesSection() {
           <path d="M9.4 16.6 4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0 4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
         </svg>
       ),
-      title: "Tech Solutions",
+      title: "Animo Tech Solutions",
       description: "Leverage cutting-edge technology solutions designed to secure and accelerate your financial freedom."
     },
     {
@@ -52,7 +52,7 @@ export default function FeaturesSection() {
         </svg>
       ),
       title: "Personal Growth",
-      description: "Animo is more than an earning platform; it's an ecosystem built to foster personal and financial evolution."
+      description: "Animo Networking Platform is more than an earning platform; it's an ecosystem built to foster personal and financial evolution."
     }
   ];
 

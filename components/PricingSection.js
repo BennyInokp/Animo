@@ -4,12 +4,12 @@ import Image from 'next/image'
 export default function PricingSection() {
   const plans = [
     {
-      title: "1-Year Plan",
+      title: "Animo 1-Year Plan",
       price: "15,000",
       duration: "Full access for 12 months.",
       recommended: true,
       features: [
-        "Full Access to Walk-and-Earn System",
+        "Full Access to Animo Walk-and-Earn System",
         "Entry into Animo Affiliate Network",
         "Access to All Premium Skill Courses",
         "Eligibility for Real Estate Opportunities",
@@ -17,12 +17,12 @@ export default function PricingSection() {
       ]
     },
     {
-      title: "6-Month Plan",
+      title: "Animo 6-Month Plan",
       price: "10,000",
       duration: "Full access for 6 months.",
       recommended: false,
       features: [
-        "Full Access to Walk-and-Earn System",
+        "Full Access to Animo Walk-and-Earn System",
         "Entry into Animo Affiliate Network",
         "Access to All Premium Skill Courses",
         "Eligibility for Real Estate Opportunities",

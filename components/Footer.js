@@ -75,13 +75,13 @@ export default function FooterPage() {
             <p className='font-bold text-[#B8E68C] text-base sm:text-lg mb-3 sm:mb-4'>SUPPORT</p>
             <ul className='space-y-2 sm:space-y-3 text-sm sm:text-base'>
               <li>
-                <a href='https://t.me/Aminoofficials?text=Hello%2C%20I%20am%20interested%20in%20Animo' target='_blank' rel='noopener noreferrer' className='hover:text-[#B8E68C] transition-colors'>
+                <a href='https://t.me/Aminoofficials?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo' target='_blank' rel='noopener noreferrer' className='hover:text-[#B8E68C] transition-colors'>
                   Telegram
                 </a>
               </li>
               <li>
                 <a
-                  href="https://wa.me/2349130803772?text=Hello%2C%20I%20am%20interested%20in%20Animo"
+                  href="https://wa.me/2349130803772?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#B8E68C] transition-colors"
@@ -115,7 +115,7 @@ export default function FooterPage() {
               onClick={handleGetStarted}
               className='w-full sm:w-auto sm:min-w-[200px] py-2.5 sm:py-3 px-6 bg-[#B8E68C] text-[#0a192f] font-bold text-sm sm:text-base rounded-lg hover:bg-green-400 transition-colors cursor-pointer'
             >
-              GET STARTED
+              Join Animo Platform Now
             </button>
           </div>
 
@@ -128,7 +128,7 @@ export default function FooterPage() {
             <p className="text-gray-200 text-base sm:text-lg md:text-xl mb-2 sm:mb-3 text-center">
               DISCLAIMER
             </p>
-            <p className="text-[#B8E68C] text-xs sm:text-sm leading-relaxed text-center max-w-4xl mx-auto">
+            <p className="text-[#B8E68C] text-xs sm:text-sm leading-relaxed text-center max-w-4xl bt-2 mx-auto">
               This site is not affiliated with or endorsed by Moniepoint, TikTok, YouTube, Google, Facebook, or Meta.
               <span className="hidden sm:inline"><br /></span>
               <span className="sm:hidden"> </span>
