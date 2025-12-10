@@ -125,7 +125,7 @@ export default function FooterPage() {
         <div className='mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-gray-700'>
           
           <div className="mb-4 sm:mb-6 px-2 sm:px-4">  
-            <p className="text-gray-200 text-base sm:text-lg md:text-xl mb-2 sm:mb-3 text-center">
+            <p className="text-gray-200 text-base sm:text-lg md:text-xl sm:mb-3 text-center">
               DISCLAIMER
             </p>
             <p className="text-[#B8E68C] text-xs sm:text-sm leading-relaxed text-center max-w-4xl bt-2 mx-auto">
@@ -137,7 +137,7 @@ export default function FooterPage() {
               <span className="sm:hidden"> </span>
               All other trademarks are the property of their respective owners.
             </p>
-            <p className="text-[#B8E68C] text-xs sm:text-sm leading-relaxed text-center max-w-4xl mx-auto px-2">
+            <p className="text-[#B8E68C] text-xs sm:text-sm leading-relaxed text-center max-w-4xl mx-auto mt-2 px-2">
             The earnings, claims, and promises discussed in this training are personal results and results of constant practice. These results are not typical. They don't imply that you can duplicate them, you may get little or no results from it as they are all references for example purposes only. Every results vary and depends on many factors including but not limited to your background, experience, and work ethic. All business involves risk as well as effort and action. If you're not willing to accept that, please DO NOT REGISTER
           </p>
           </div>
