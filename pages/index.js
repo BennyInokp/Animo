@@ -116,7 +116,7 @@ export default function Index() {
           </h1>
           
           <div className="text-center mb-8 sm:mb-12 md:mb-16">
-            <p className="text-gray-400 text-sm sm:text-base md:text-lg lg:text-xl px-4">
+            <p className="text-gray-400 text-sm sm:text-base md:text-lg lg:text-[1.1rem] px-4">
               Discover the key parts of the Animo ecosystem, built to guide you toward personal progress and meaningful financial success.
             </p>
           </div>
