@@ -1,4 +1,3 @@
-import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
@@ -6,9 +5,6 @@ export default function FooterPage() {
   const router = useRouter()
   const isHomePage = router.pathname === '/'
 
-  const handleGetStarted = () => {
-    router.push('/dashboard')
-  }
 
   return (
     <footer className='w-full bg-[#0a192f] text-gray-200 py-8 sm:py-12 px-4 sm:px-6 md:px-8 border-t border-gray-700'>
@@ -112,20 +108,21 @@ export default function FooterPage() {
             </p>
             
             {/* <button 
-              onClick={handleGetStarted}
+              
               className='w-full sm:w-auto sm:min-w-[200px] py-2.5 sm:py-3 px-6 bg-[#B8E68C] text-[#0a192f] font-bold text-sm sm:text-base rounded-lg hover:bg-green-400 transition-colors cursor-pointer'
             >
               Join Animo Platform Now
             </button> */}
-
+<button> 
              <a
                   href="https://wa.me/2347039985631?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo"
                   target="_blank"
                   rel="noopener noreferrer"
-                 className='w-full sm:w-auto sm:min-w-[200px] py-2.5 sm:py-3 px-6 bg-[#B8E68C] text-[#0a192f] font-bold text-sm sm:text-base rounded-lg hover:bg-green-400 transition-colors cursor-pointer'
+                 className='w-full sm:w-auto sm:min-w-[200px] py-2.5 sm:py-3 px-6 bg-green-500 text-[#0a192f] font-bold text-sm sm:text-base rounded-lg hover:bg-[#B8E68C] transition-colors cursor-pointer'
                 >
                  Join Animo Platform Now
                 </a>
+                </button>
           </div>
 
         </div>
