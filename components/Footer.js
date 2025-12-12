@@ -112,7 +112,7 @@ export default function FooterPage() {
 href="https://wa.me/2347039985631?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo"
   target="_blank"
   rel="noopener noreferrer"
-  className='inline-block text-center w-full sm:w-auto sm:min-w-[200px] py-2.5 sm:py-3 px-6 bg-[#B8E68C] text-[#0a192f] font-bold text-sm sm:text-base rounded-lg hover:bg-green-400 transition-colors cursor-pointer'
+  className='block text-center w-full sm:w-auto sm:min-w-[200px] py-2.5 sm:py-3 px-6 bg-[#B8E68C] text-[#0a192f] font-bold text-sm sm:text-base rounded-lg hover:bg-green-400 transition-colors cursor-pointer'
 >
   Join Animo Platform Now
 </a>
