@@ -95,16 +95,6 @@ export default function PricingSection() {
           ))}
         </div>
 
-        {/* Platform Disclaimer */}
-        {/* <div className="mb-6 sm:mb-8 md:mb-10 px-2 sm:px-4">  
-          <p className="text-gray-200 text-lg sm:text-xl md:text-2xl mb-2 sm:mb-3 text-center">
-            DISCLAIMER
-          </p>
-          <p className="text-[#B8E68C] text-xs sm:text-sm leading-relaxed text-center max-w-4xl mx-auto px-2">
-            The earnings, claims, and promises discussed in this training are personal results and results of constant practice. These results are not typical. They don't imply that you can duplicate them, you may get little or no results from it as they are all references for example purposes only. Every results vary and depends on many factors including but not limited to your background, experience, and work ethic. All business involves risk as well as effort and action. If you're not willing to accept that, please DO NOT REGISTER
-          </p>
-        </div> */}
-
         {/* Testimonials Section */}
         <div className="mb-6 sm:mb-8">
           <p className='text-[#B8E68C] text-2xl sm:text-3xl md:text-4xl mb-4 sm:mb-6 text-center font-semibold'>
