@@ -109,14 +109,6 @@ export default function FooterPage() {
             
            
 <a
-// href="https://wa.me/2347039985631?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo"
-//   target="_blank"
-//   rel="noopener noreferrer"
-//   className='block text-center w-full sm:w-auto sm:min-w-[200px] py-2.5 sm:py-3 px-6 bg-[#B8E68C] text-[#0a192f] font-bold text-sm sm:text-base rounded-lg hover:bg-green-400 transition-colors cursor-pointer'
-// >
-//   Join Animo Platform Now
-// </a>
-
 href="https://wa.me/2347039985631?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo"
   target="_blank"
   rel="noopener noreferrer"
@@ -150,22 +142,26 @@ href="https://wa.me/2347039985631?text=Hello%2C%20I%20want%20to%20Register%20on%
           </p>
           </div>
           
-          <div className='text-center space-y-2'>
-            <p className='text-sm sm:text-base'>
-              Built By{' '}
-              <a
-                href="https://wa.me/2347038284412?text=Hello%2C%20I%20am%20interested%20in%20inbuilding%20a%20website%20like%20Animo"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-[#B8E68C] transition-colors font-medium"
-              >
-                devBenny
-              </a>
-            </p>
-            <p className='text-gray-400 text-xs sm:text-sm'>
-              © 2025 Animo. All rights reserved. | Walk with purpose, earn with pride.
-            </p>
-          </div>
+          
+
+<div className='text-center space-y-2'>
+  <p className='text-sm sm:text-base flex items-center justify-center gap-2'>
+    Built By{' '}
+    <a
+      href="https://wa.me/2347038284412?text=Hello%2C%20I%20am%20interested%20in%20building%20a%20website%20like%20Animo"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block px-3 py-1 bg-[#B8E68C] text-[#0a192f] font-medium text-xs sm:text-sm rounded-full hover:bg-green-400 transition-colors"
+    >
+      devBenny
+    </a>
+  </p>
+  <p className='text-gray-400 text-xs sm:text-sm'>
+    © 2025 Animo. All rights reserved. | Walk with purpose, earn with pride.
+  </p>
+</div>
+
+
         </div>
       </div>
     </footer>
