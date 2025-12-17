@@ -114,7 +114,7 @@ href="https://wa.me/2347039985631?text=Hello%2C%20I%20want%20to%20Register%20on%
   rel="noopener noreferrer"
   className='flex items-center justify-center w-full sm:inline-flex sm:w-auto sm:min-w-[200px] h-[3rem] sm:h-auto py-2.5 sm:py-3 px-6 bg-[#B8E68C] text-[#0a192f] font-bold text-sm sm:text-base rounded-lg hover:bg-green-400 transition-colors cursor-pointer'
 >
-  Join Animo Platform Now
+  REGISTER NOW
 </a>
 
           </div>
@@ -142,7 +142,22 @@ href="https://wa.me/2347039985631?text=Hello%2C%20I%20want%20to%20Register%20on%
           </p>
           </div>
           
-          
+        {/* <div className='text-center space-y-2'>
+            <p className='text-sm sm:text-base'>
+              Built By{' '}
+              <a
+                href="https://wa.me/2347038284412?text=Hello%2C%20I%20am%20interested%20in%20inbuilding%20a%20website%20like%20Animo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#B8E68C] transition-colors font-medium"
+              >
+                devBenny
+              </a>
+            </p>
+            <p className='text-gray-400 text-xs sm:text-sm'>
+              © 2025 Animo. All rights reserved. | Walk with purpose, earn with pride.
+            </p>
+          </div> */}  
 
 <div className='text-center space-y-2'>
   <p className='text-sm sm:text-base flex items-center justify-center gap-2'>

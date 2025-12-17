@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from "react";
 import { FiCopy } from "react-icons/fi"; 
-import { FaWhatsapp, FaTelegramPlane } from "react-icons/fa";
+import {  FaTelegramPlane } from "react-icons/fa";
 
 export default function Dashboard() {
   const [copyMessage, setCopyMessage] = useState(false);
@@ -30,9 +30,9 @@ export default function Dashboard() {
     setTimeout(() => setCopyMessage(false), 1000);
   };
 
-  const openWhatsApp = () => {
-    window.open("https://wa.me/2349130803772?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo", "_blank");
-  };
+const openTelegramGroup = () => {
+  window.open("https://t.me/aminoofficial", "_blank");
+};
 
   const openTelegram = () => {
     window.open("https://t.me/Aminoofficials?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo", "_blank");
@@ -105,13 +105,6 @@ export default function Dashboard() {
 
         {/* Buttons for First Payment */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-12">
-          <button
-            onClick={openWhatsApp}
-            className="flex items-center justify-center gap-2 bg-green-800 hover:bg-green-700 transition p-3 sm:p-3.5 rounded-lg font-bold text-sm sm:text-base"
-          >
-            <FaWhatsapp size={18} className="sm:w-5 sm:h-5" />
-            Please Proceed
-          </button>
 
           <button
             onClick={openTelegram}
@@ -119,6 +112,14 @@ export default function Dashboard() {
           >
             <FaTelegramPlane size={18} className="sm:w-5 sm:h-5" />
             Please Proceed
+          </button>
+
+           <button
+            onClick={openTelegramGroup}
+            className="flex items-center justify-center gap-2 bg-green-800 hover:bg-green-700 transition p-3 sm:p-3.5 rounded-lg font-bold text-sm sm:text-base"
+          >
+            <FaTelegramPlane size={18} className="sm:w-5 sm:h-5" />
+            Join Animo Group
           </button>
         </div>
 
@@ -159,13 +160,6 @@ export default function Dashboard() {
 
         {/* Buttons for Second Payment */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8">
-          <button
-            onClick={openWhatsApp}
-            className="flex items-center justify-center gap-2 bg-green-800 hover:bg-green-700 transition p-3 sm:p-3.5 rounded-lg font-bold text-sm sm:text-base"
-          >
-            <FaWhatsapp size={18} className="sm:w-5 sm:h-5" />
-            Please Proceed
-          </button>
 
           <button
             onClick={openTelegram}
@@ -173,6 +167,14 @@ export default function Dashboard() {
           >
             <FaTelegramPlane size={18} className="sm:w-5 sm:h-5" />
             Please Proceed
+          </button>
+
+           <button
+            onClick={openTelegramGroup}
+            className="flex items-center justify-center gap-2 bg-green-800 hover:bg-green-700 transition p-3 sm:p-3.5 rounded-lg font-bold text-sm sm:text-base"
+          >
+            <FaTelegramPlane size={18} className="sm:w-5 sm:h-5" />
+            Join Animo Group
           </button>
         </div>
       </div>
