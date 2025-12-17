@@ -71,13 +71,13 @@ export default function FooterPage() {
             <p className='font-bold text-[#B8E68C] text-base sm:text-lg mb-3 sm:mb-4'>SUPPORT</p>
             <ul className='space-y-2 sm:space-y-3 text-sm sm:text-base'>
               <li>
-                <a href='https://t.me/Aminoofficials?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo' target='_blank' rel='noopener noreferrer' className='hover:text-[#B8E68C] transition-colors'>
+                <a href='https://t.me/Aminoofficial?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo' target='_blank' rel='noopener noreferrer' className='hover:text-[#B8E68C] transition-colors'>
                   Telegram
                 </a>
               </li>
               <li>
                 <a
-                  href="https://wa.me/2349130803772?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo"
+                  href="https://wa.me/2347039985631?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#B8E68C] transition-colors"
@@ -142,22 +142,6 @@ href="https://wa.me/2347039985631?text=Hello%2C%20I%20want%20to%20Register%20on%
           </p>
           </div>
           
-        {/* <div className='text-center space-y-2'>
-            <p className='text-sm sm:text-base'>
-              Built By{' '}
-              <a
-                href="https://wa.me/2347038284412?text=Hello%2C%20I%20am%20interested%20in%20inbuilding%20a%20website%20like%20Animo"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-[#B8E68C] transition-colors font-medium"
-              >
-                devBenny
-              </a>
-            </p>
-            <p className='text-gray-400 text-xs sm:text-sm'>
-              © 2025 Animo. All rights reserved. | Walk with purpose, earn with pride.
-            </p>
-          </div> */}  
 
 <div className='text-center space-y-2'>
   <p className='text-sm sm:text-base flex items-center justify-center gap-2'>
