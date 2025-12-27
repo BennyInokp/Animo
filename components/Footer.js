@@ -109,7 +109,7 @@ export default function FooterPage() {
   
   <div className="flex flex-col gap-3">
     <a
-      href="https://wa.me/2347039985631?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo"
+      href="https://wa.me/2348021246233?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo"
       target="_blank"
       rel="noopener noreferrer"
       className='flex items-center justify-center w-full sm:w-auto sm:min-w-[200px] h-[3rem] sm:h-auto py-2.5 sm:py-3 px-6 bg-[#B8E68C] text-[#0a192f] font-bold text-sm sm:text-base rounded-lg hover:bg-green-400 transition-colors cursor-pointer'
