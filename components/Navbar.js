@@ -23,14 +23,14 @@ function Navbar() {
         {/* Logo */}
         <span className="flex">
           <Image
-            src="/images/logo1.png"
+            src="/images/logo2.png"
             alt="Animo Logo"
             width={180}
             height={72}
             className="block sm:hidden"
           />
           <Image
-            src="/images/logo1.png"
+            src="/images/logo2.png"
             alt="Animo Logo"
             width={250}
             height={100}
@@ -87,15 +87,15 @@ function Navbar() {
           </li>
           <li>
             {isHomePage ? (
-              <a href="#faq" className="text-gray-200 hover:text-[#B8E68C] transition-colors">FAQs</a>
+              <a href="#faq" className="text-gray-200 hover:text-[#B8E68C] transition-colors">Process</a>
             ) : (
-              <Link href="/#faq" className="text-gray-200 hover:text-[#B8E68C] transition-colors">FAQs</Link>
+              <Link href="/#faq" className="text-gray-200 hover:text-[#B8E68C] transition-colors">Process</Link>
             )}
           </li>
           <li>
             <Link href="/dashboard">
               <button className="bg-green-600 px-4 xl:px-5 py-2 rounded-lg text-base xl:text-lg text-black font-semibold hover:bg-green-700 transition-colors">
-                Join Animo
+                Join Stream
               </button>
             </Link>
           </li>

@@ -4,24 +4,25 @@
 import { useState, useEffect } from "react";
 import { FiCopy } from "react-icons/fi"; 
 import {  FaTelegramPlane } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Dashboard() {
   const [copyMessage, setCopyMessage] = useState(false);
   const [timeLeft, setTimeLeft] = useState(600); // Example: 10 minutes
 
   const paymentDetails = [
-    { label: "ACCOUNT NUMBER", value: "0036719441" },
-    { label: "BANK NAME", value: "Stanbic IBTC" },
-    { label: "BENEFICIARY", value: "ANIMO(Hidom Enterprise)" },
-    { label: "TOTAL AMOUNT", value: "₦15,000", valueColor: "#4ADE80" },
+    { label: "ACCOUNT NUMBER", value: "3003439031" },
+    { label: "BANK NAME", value: "Kuda Bank" },
+    { label: "BENEFICIARY", value: "Hidom Enterprise-StreamAfrica" },
+    { label: "TOTAL AMOUNT", value: "₦12,000", valueColor: "#4ADE80" },
   ];
 
-  const paymentDetail = [
-    { label: "ACCOUNT NUMBER", value: "0036719441" },
-    { label: "BANK NAME", value: "Stanbic IBTC" },
-    { label: "BENEFICIARY", value: "ANIMO(Hidom Enterprise)" },
-    { label: "TOTAL AMOUNT", value: "₦10,000", valueColor: "#4ADE80" },
-  ];
+  // const paymentDetail = [
+  //   { label: "ACCOUNT NUMBER", value: "0036719441" },
+  //   { label: "BANK NAME", value: "Stanbic IBTC" },
+  //   { label: "BENEFICIARY", value: "ANIMO(Hidom Enterprise)" },
+  //   { label: "TOTAL AMOUNT", value: "₦10,000", valueColor: "#4ADE80" },
+  // ];
 
   // Copy function
   const handleCopy = async (text) => {
@@ -31,12 +32,20 @@ export default function Dashboard() {
   };
 
 const openTelegramGroup = () => {
-  window.open("https://t.me/aminoofficial", "_blank");
+  window.open("https://t.me/Aminoofficial?text=Hello%2C%20I%20want%20to%20Register%20on%20Stream%20on%20Africa", "_blank");
+  };
+
+
+const openWhatsApp = () => {
+  window.open(
+    "https://wa.me/2347058905062?text=Please%20share%20your%20receipt",
+    "_blank"
+  );
 };
 
-  const openTelegram = () => {
-    window.open("https://t.me/Aminoofficials?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo", "_blank");
-  };
+  // const openTelegram = () => {
+  //   window.open("https://t.me/Aminoofficials?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo", "_blank");
+  // };
 
   useEffect(() => {
     if (timeLeft <= 0) return;
@@ -107,23 +116,22 @@ const openTelegramGroup = () => {
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-12">
 
           <button
-            onClick={openTelegram}
-            className="flex items-center justify-center gap-2 bg-[#06374f] hover:bg-[#085f7b] transition p-3 sm:p-3.5 rounded-lg font-bold text-sm sm:text-base"
+            onClick={openWhatsApp}
+             className="flex items-center justify-center gap-2 bg-green-800 hover:bg-green-700 transition p-3 sm:p-3.5 rounded-lg font-bold text-sm sm:text-base"
           >
-            <FaTelegramPlane size={18} className="sm:w-5 sm:h-5" />
+            <FaWhatsapp  size={18} className="sm:w-5 sm:h-5" />
             Please Proceed
           </button>
 
            <button
             onClick={openTelegramGroup}
-            className="flex items-center justify-center gap-2 bg-green-800 hover:bg-green-700 transition p-3 sm:p-3.5 rounded-lg font-bold text-sm sm:text-base"
-          >
+             className="flex items-center justify-center gap-2 bg-[#06374f] hover:bg-[#085f7b] transition p-3 sm:p-3.5 rounded-lg font-bold text-sm sm:text-base">
             <FaTelegramPlane size={18} className="sm:w-5 sm:h-5" />
-            Join Animo Group
+            Join Stream Africa Group
           </button>
         </div>
 
-        {/* Second Payment Card - ₦10,000 */}
+        {/* Second Payment Card - ₦10,000
         <div className="bg-[#030712] p-4 sm:p-5 md:p-6 rounded-lg sm:rounded-xl mb-6">
           {paymentDetail.map((item, idx) => (
             <div key={idx} className="mb-4 sm:mb-5">
@@ -156,10 +164,10 @@ const openTelegramGroup = () => {
             Payment window expires in:{" "}
             <span className="text-white font-bold">{formatTime(timeLeft)}</span>
           </p>
-        </div>
+        </div> */}
 
         {/* Buttons for Second Payment */}
-        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8">
+        {/* <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8">
 
           <button
             onClick={openTelegram}
@@ -176,8 +184,9 @@ const openTelegramGroup = () => {
             <FaTelegramPlane size={18} className="sm:w-5 sm:h-5" />
             Join Animo Group
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
+    
   );
-}
+};

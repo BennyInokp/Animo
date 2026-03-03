@@ -2,110 +2,93 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export default function PricingSection() {
-  const plans = [
-    {
-      title: "Animo 1-Year Plan",
-      price: "15,000",
-      duration: "Full access for 12 months.",
-      recommended: true,
-      features: [
-        "Full Access to Animo Walk-and-Earn System",
-        "Entry into Animo Affiliate Network",
-        "Access to All Premium Skill Courses",
-        "Eligibility for Real Estate Opportunities",
-        "Opportunities to generate income"
-      ]
-    },
-    {
-      title: "Animo 6-Month Plan",
-      price: "10,000",
-      duration: "Full access for 6 months.",
-      recommended: false,
-      features: [
-        "Full Access to Animo Walk-and-Earn System",
-        "Entry into Animo Affiliate Network",
-        "Access to All Premium Skill Courses",
-        "Eligibility for Real Estate Opportunities",
-        "Opportunities to generate income"
-      ]
-    }
-  ];
+ const plans = {
+  title: "Animo 1-Year Plan",
+  price: "12,000",
+  duration: "One-Time Payment for Full Access",
+  features: [
+    "Full Access to Stream Africa Platform",
+    "Entry into Stream Affiliate Network",
+    "Access to All Premium Skills and Resources",
+    "Opportunities to generate income",
+  ],
+};
+   
+  
 
+  
   return (
+     
     <section className="bg-gray-900 py-6 sm:py-8 md:py-12 px-4">
+       
       <div className="max-w-6xl mx-auto">
         {/* Pricing Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-12">
-          {plans.map((plan, index) => (
-            <div
-              key={index}
-              className="relative bg-gradient-to-br from-[#1a1f3a] to-[#0f1329] rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-[#2a3154] hover:border-[#B8E68C] transition-all duration-300"
-            >
-              {/* Recommended Ribbon */}
-              {plan.recommended && (
-                <div className="absolute -top-0 -right-0 bg-[#B8E68C] text-[#0A0E27] font-bold text-xs sm:text-sm px-4 sm:px-6 py-1.5 sm:py-2 rounded-bl-2xl rounded-tr-2xl sm:rounded-tr-3xl">
-                  RECOMMENDED
-                </div>
-              )}
+   {/* <div className="flex flex-col md:flex-row gap-6 items-center"> */}
+   <div className="flex flex-col md:flex-row gap-6 items-stretch">
+  
+  {/* Left - 1 Year Plan Card */}
+  
+  <div className="w-full md:w-1/2 border border-[#B8E68C] rounded-xl p-6 sm:p-8">
+    
+      <Link href="/dashboard">                            
+    {/* Price */}
+    <div className="text-center mb-3 sm:mb-4">
+      <span className="text-[#B8E68C] text-4xl sm:text-5xl md:text-6xl font-bold">
+        ₦{plans.price}
+      </span>
+    </div>
 
-              {/* Plan Title */}
-              <h3 className="text-white text-2xl sm:text-3xl font-bold text-center mb-4 sm:mb-6 mt-2 sm:mt-0">
-                {plan.title}
-              </h3>
+    {/* Duration */}
+    <p className="text-gray-300 text-sm sm:text-base text-center mb-6 sm:mb-8">
+      {plans.duration}
+    </p>
 
-              {/* Price */}
-              <div className="text-center mb-3 sm:mb-4">
-                <span className="text-[#B8E68C] text-4xl sm:text-5xl md:text-6xl font-bold">
-                  ₦{plan.price}
-                </span>
-              </div>
+    {/* Features */}
+    <ul className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
+      {plans.features.map((feature, idx) => (
+        <li key={idx} className="flex items-start gap-2 sm:gap-3">
+          <span className="text-gray-300 text-sm sm:text-base">
+            {feature}
+          </span>
+        </li>
+      ))}
+    </ul>
+</Link>
+  </div>
 
-              {/* Duration */}
-              <p className="text-gray-300 text-sm sm:text-base text-center mb-6 sm:mb-8">
-                {plan.duration}
-              </p>
+  {/* Right - Image */}
+ {/* <div className="w-full md:w-1/2 h-full">
+  <Image
+    src="/images/slot.jpg"
+    alt="Animo Plan"
+    width={500}
+    height={300}
+    className="w-full h-[27rem] object-cover rounded-xl"
+  />
+</div> */}
 
-              {/* Features List */}
-              <ul className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
-                {plan.features.map((feature, idx) => (
-                  <li key={idx} className="flex items-start gap-2 sm:gap-3">
-                    <svg
-                      className="w-5 h-5 sm:w-6 sm:h-6 text-[#B8E68C] flex-shrink-0 mt-0.5"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <circle cx="12" cy="12" r="10" />
-                      <path
-                        fill="#0A0E27"
-                        d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
-                      />
-                    </svg>
-                    <span className="text-gray-300 text-sm sm:text-base leading-relaxed">{feature}</span>
-                  </li>
-                ))}
-              </ul>
+<div className="w-full md:w-1/2 h-[27rem] relative">
+  <Image
+    src="/images/slot.jpg"
+    alt="Animo Plan"
+    fill
+    className="object-cover rounded-xl"
+  />
+</div>
 
-              {/* CTA Button */}
-              <Link href="/dashboard">
-                <button className="w-full bg-[#B8E68C] hover:bg-[#a3d477] text-[#0A0E27] font-bold text-base sm:text-lg py-3 sm:py-4 rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-[#B8E68C]/30">
-                  Join Animo Network Today
-                </button>
-              </Link>
-            </div>
-          ))}
-        </div>
+</div>
 
         {/* Testimonials Section */}
-        <div className="mb-6 sm:mb-8">
+        <div className="mb-6 sm:mt-10">
           <p className='text-[#B8E68C] text-2xl sm:text-3xl md:text-4xl mb-4 sm:mb-6 text-center font-semibold'>
-           Animo Platform Testimonials
+           Stream Platform Testimonials
           </p>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             <div className="h-64 sm:h-72 md:h-80 lg:h-96 relative overflow-hidden rounded-lg">
               <Image
-                src="/images/image5.jpeg"
-                alt="Animo Testimonial 1"
+                src="/images/image15.jpeg"
+                alt="Testimonial 1"
                 fill
                 className='object-cover'
               /> 
@@ -113,8 +96,8 @@ export default function PricingSection() {
 
             <div className="h-64 sm:h-72 md:h-80 lg:h-96 relative overflow-hidden rounded-lg">
               <Image
-                src="/images/image6.jpeg"
-                alt="Animo Testimonial 2"
+                src="/images/image16.jpeg"
+                alt=" Testimonial 2"
                 fill
                 className='object-cover'
               /> 
@@ -122,8 +105,8 @@ export default function PricingSection() {
 
             <div className="h-64 sm:h-72 md:h-80 lg:h-96 relative overflow-hidden rounded-lg sm:col-span-2 lg:col-span-1">
               <Image
-                src="/images/image4.jpeg"
-                alt="Animo Testimonial 3"
+                src="/images/image17.jpeg"
+                alt="Testimonial 3"
                 fill
                 className='object-cover'
               /> 

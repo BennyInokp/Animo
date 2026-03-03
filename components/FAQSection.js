@@ -11,34 +11,29 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "How does Animo 'Earn-and-Walk' feature work?",
+      question: "Contact Suport",
       answer:
-        "Animo Networking Platform groundbreaking technology uses your smartphone's built-in sensors to track your steps. As you walk, you accumulate points within the Animo website which can then be converted into real income or used within Animo ecosystem. It's a simple, powerful way to monetize your daily activity.",
+        "Click the button below to message our activation team on WhatsApp for any assistance you need. We're here to help you with any questions or issues you may have.",
     },
     {
-      question: "What kind of skill acquisition programs does Animo Platform offer?",
+      question: "Verification Details",
       answer:
-        "Animo Networking Platform offer a curated selection of premium skill acquisition programs focused on high-demand areas such as digital marketing, financial literacy, e-commerce, and modern tech skills. Animo goal is to provide practical knowledge that translates directly into earning opportunities.",
+        "Provide your account information and follow required steps stated by support representative for verification.",
     },
     {
-      question: "What is Animo Multi-Earnings System?",
+      question: "Make Payment",
       answer:
-        "Animo Multi-Earnings System is a core part of Animo, offering various ways to generate income beyond the walk-and-earn feature. Animo provide all the tools, training, and support you need to succeed, regardless of your prior experience.",
+        "Make your payment and receive 100% cash back as activation bonus.",
     },
 
    {
-    question: " Is Animo Networking Platform legit or Not?",
+    question: " Start Streaming",
 
      answer:
-      "ANIMO Earning App is legit, the CEO has a good track record of wealth creation, partnering with other giant organizations to bring you Animo."
+      "Receive activation confirmation and begin earing."
    },
 
-   {
-    question: "Is Animo Network available worldwide?",
-    answer:
-      "Yes, Animo Networking Platform is a globally connected ecosystem. Animo platform is designed to be accessible to individuals from all over the world, empowering a diverse community to walk their path to prosperity together."
-
-   },
+  
   ];
 
   return (

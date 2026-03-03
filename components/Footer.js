@@ -58,7 +58,6 @@ export default function FooterPage() {
           <div>
             <p className='font-bold text-[#B8E68C] text-base sm:text-lg mb-3 sm:mb-4'>EARN WITH US</p>
             <ul className='space-y-2 sm:space-y-3 text-sm sm:text-base'>
-              <li>Walk-to-Earn</li>
               <li>Referral Rewards</li>
               <li>Level Bonuses</li>
               <li>Social Rewards</li>
@@ -77,7 +76,7 @@ export default function FooterPage() {
               </li>
               <li>
                 <a
-                  href="https://wa.me/2347039985631?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo"
+                  href="https://wa.me/2347058905062?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#B8E68C] transition-colors"
@@ -93,7 +92,7 @@ export default function FooterPage() {
                 )}
               </li>
               <li>
-                <a href='https://bennyinokp.github.io/animoweb-privacy-policy/' target='_blank' rel='noopener noreferrer' className='hover:text-[#B8E68C] transition-colors'>
+                <a href='https://bennyinokp.github.io/Stream-and-Earn-policy/' target='_blank' rel='noopener noreferrer' className='hover:text-[#B8E68C] transition-colors'>
                   Privacy Policy
                 </a>
               </li>
@@ -108,11 +107,11 @@ export default function FooterPage() {
   </p>
   
   <div className="flex flex-col gap-3">
-    <a
-      href="https://wa.me/2348021246233?text=Hello%2C%20I%20want%20to%20Register%20on%20Animo"
-      target="_blank"
+    <a 
+      href="https://t.me/Aminoofficials?text=Hello%2C%20I%20want%20to%20Register%20on%20Stream%20Africa" 
+      target="_blank" 
       rel="noopener noreferrer"
-      className='flex items-center justify-center w-full sm:w-auto sm:min-w-[200px] h-[3rem] sm:h-auto py-2.5 sm:py-3 px-6 bg-[#B8E68C] text-[#0a192f] font-bold text-sm sm:text-base rounded-lg hover:bg-green-400 transition-colors cursor-pointer'
+      className="flex items-center justify-center w-full sm:w-auto sm:min-w-[200px] h-[3rem] sm:h-auto py-2.5 sm:py-3 px-6 bg-[#B8E68C] text-[#0a192f] font-bold text-sm sm:text-base rounded-lg hover:bg-green-400 transition-colors cursor-pointer"
     >
       REGISTER ANIMO NOW
     </a>
