@@ -174,7 +174,8 @@ It’s a new economic pathway where creativity, attention, and community convert
           <FAQSection className="mt-6 sm:mt-8" />
           <button
             onClick={openWhatsApp}
-             className="flex items-center justify-center mt-10 ml-[17rem] gap-2 bg-[#B8E68C] hover:bg-[#B8E68C] transition p-3 sm:p-3.5 rounded-lg font-bold text-sm sm:text-base"
+            //  className="flex items-center justify-center mt-10 ml-[17rem] gap-2 bg-[#B8E68C] hover:bg-[#B8E68C] transition p-3 sm:p-3.5 rounded-lg font-bold text-sm sm:text-base"
+            className="flex items-center justify-center mt-10 mx-auto w-full sm:w-auto gap-2 bg-[#B8E68C] p-3 sm:p-3.5 rounded-lg font-bold text-sm sm:text-base"
           >
             <FaWhatsapp  size={18} className="sm:w-5 sm:h-5" />
            Contact Support to Activate Account

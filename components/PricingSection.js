@@ -56,17 +56,7 @@ export default function PricingSection() {
 </Link>
   </div>
 
-  {/* Right - Image */}
- {/* <div className="w-full md:w-1/2 h-full">
-  <Image
-    src="/images/slot.jpg"
-    alt="Animo Plan"
-    width={500}
-    height={300}
-    className="w-full h-[27rem] object-cover rounded-xl"
-  />
-</div> */}
-
+  
 <div className="w-full md:w-1/2 h-[27rem] relative">
   <Image
     src="/images/slot.jpg"
