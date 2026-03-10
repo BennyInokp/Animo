@@ -11,9 +11,9 @@ export default function Dashboard() {
   const [timeLeft, setTimeLeft] = useState(600); // Example: 10 minutes
 
   const paymentDetails = [
-    { label: "ACCOUNT NUMBER", value: "3003439031" },
-    { label: "BANK NAME", value: "Kuda Bank" },
-    { label: "BENEFICIARY", value: "Hidom Enterprise-StreamAfrica" },
+    { label: "ACCOUNT NUMBER", value: " 3003438931" },
+    { label: "BANK NAME", value: "KUDA microfinance (MFB) Bank" },
+    { label: "BENEFICIARY", value: "Hidom Enterprise - Streams" },
     { label: "TOTAL AMOUNT", value: "₦12,000", valueColor: "#4ADE80" },
   ];
 
@@ -32,13 +32,13 @@ export default function Dashboard() {
   };
 
 const openTelegramGroup = () => {
-  window.open("https://t.me/Aminoofficial?text=Hello%2C%20I%20want%20to%20Register%20on%20Stream%20on%20Africa", "_blank");
+  window.open("https://t.me/Aminoofficial?text=Hello%2C%20I%20want%20to%20Register%20on%20Stream%20on%20Africa.%20on%20This%20is%20my%20payment%20receipt.", "_blank");
   };
 
 
 const openWhatsApp = () => {
   window.open(
-    "https://wa.me/2347058905062?text=Please%20share%20your%20receipt",
+    "https://wa.me/2347058905062?text=Please%20share%20your%20payment%20receipt.%20First%20save%20our%20as%20Digital%20Wealth...Also%20share%20your%20payment%20receipt%20on%20our%20Telegram%20@Aminoofficials%20for%20faster%20response.",
     "_blank"
   );
 };
